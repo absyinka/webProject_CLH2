@@ -1,4 +1,3 @@
-
 //function to change an image src attribute
 function changeImage() {
     document.getElementById('img').src = 'images/img1.jpg';
