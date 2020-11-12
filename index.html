@@ -11,26 +11,29 @@
   <body>
     <nav>
       <a href="index.html">Home</a>
-      <a href="about.html">About</a>
+      <a href="about.html" target="_top">About</a>
       <a href="contact.html">Contact</a>
       <a href="record.html">Record</a>
       <a href="calculator.html">Calculator</a>
     </nav>
 
     <div class="container">
-      <h1 id="demo">Hello student</h1>
+      <h1>Enter your name below to access the about us page</h1>
 
-      <img
-        src="images/img3.jpg"
-        id="img"
-        alt="A picture of a boy holding hands with his father"
-        title="A picture of a boy holding hands with his father"
-      />
-
-      <button onclick="changeImage()" class="btn">Change Image</button>
-      <button ondblclick="changeText()" class="btn">Change Text</button>
+      <div class="formAccess">
+        <form action="" id="accessForm">
+          <label for="name" class="mb5">Enter your name:</label>
+          <input type="text" name="name" id="name" class="mb5" />
+          <input
+            type="button"
+            value="Enter"
+            class="btn"
+            onclick="checkInput()"
+          />
+        </form>
+      </div>
     </div>
 
-    <script src="js/app.js"></script>
+    <script src="js/home.js"></script>
   </body>
 </html>

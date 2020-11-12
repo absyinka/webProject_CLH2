@@ -1,0 +1,80 @@
+body {
+  background-color: white;
+}
+
+.information_content {
+  width: 960px;
+  margin: auto;
+}
+
+.float_left_45 {
+  float: left;
+  width: 45%;
+  padding: 10px;
+}
+
+.float_right_45 {
+  float: right;
+  width: 45%;
+  padding: 10px;
+}
+
+.mr15 {
+  margin-right: 15px;
+}
+
+.mt15 {
+  margin-top: 15px;
+}
+
+.mb15 {
+  margin-bottom: 15px;
+}
+
+.hr {
+  border-color: #ddd;
+  border-style: double;
+  border-width: 2px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.border-blue {
+  border: 1px solid dodgerblue;
+}
+
+.border-pink {
+  border: 1px solid palevioletred;
+}
+
+#img_info > img {
+  width: 200px;
+  float: left;
+  margin-right: 10px;
+  height: auto;
+}
+
+/* Table for information page */
+.info_table {
+  border: none;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.info_table th {
+  background-color: #4caf50;
+  color: white;
+  border-bottom: 1px solid #ddd;
+  width: 50%;
+  height: 50px;
+}
+
+.info_table td {
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  width: 50%;
+  height: 50px;
+  text-align: center;
+}
